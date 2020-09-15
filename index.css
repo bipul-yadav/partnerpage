@@ -24,7 +24,7 @@ body{
     justify-content: center;
 }
 header h1{
-    margin-top: 45px;
+    margin-top: 0px;
     margin-bottom: 0;
     font-weight: 500;
     font-size: 40px;
@@ -34,33 +34,49 @@ header h4{
     font-weight: 100;
     color: rgb(231, 231, 231);
 }
+header img{
+    width: 200px;
+    height: 200px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.oneassure-logo{
+    
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
 .box{
     
-    border-left: 1.5px dashed white;
+   
     position: relative;
     display: flex;
+    align-items: flex-start;
     /* background-image: linear-gradient(to right, #333 10%, rgba(255, 255, 255, 0) 0%); */
+}
+.dot{
+    flex: 0.5;
+    padding: 0;
+    margin: 0;
+}
+.dot img{
+    width: 50px;
+    height: 50px;
+}
+.box ul{
+    flex: 5;
 }
 
 ul{
     list-style: none;
-    margin-top: 0;
-    margin-bottom: 35px;
+    
     position: relative;
-    top: -4px;
+    top: -8px;
+    left: -10px;
     padding-left: 21px;
 }
-.dot{
-    width: 10px;
-    height: 10px;
-    background-color: white;
-    position: absolute;
-    top: 0px;
-    left: -6px;
-    border-radius: 50%;
-}
+
 section{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 section div:last-child ul{
     margin-bottom: 0;
@@ -83,7 +99,7 @@ main section:first-child ul li{
     margin-top: 5px;
 }
 main{
-    margin-top: 40px;
+   
     width: 80%;
 }
 
@@ -92,6 +108,10 @@ video{
     width: 80%;
     height: 150px;
     margin-bottom: 10px;
+}
+.website{
+    margin-top: 4px;
+    font-size: 12px !important
 }
 .whatsapp-title{
     font-size: 12px;
@@ -118,6 +138,74 @@ video{
 .video span{
     font-size: 16px;
     letter-spacing: 0.7px;
+}
+.brand ,.blog{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+}
+.brand h4 {
+    color: black;
+    margin-top: 30px;
+}
+.blog{
+    color: black;
+    
+}
+.brand img{
+    width: 130px;
+    height: 100px;
+    margin: 9px
+}
+.brandImage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+}
+.card{
+    display: flex;
+    padding: 16px;
+    max-width: 600px;
+    
+}
+.card img{
+    flex: 1;
+    width: 100px;
+    height: 80px;
+}
+.content{
+    max-width: 500px;
+    margin-left: 10px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.content p, .content h5{
+    margin: 0;
+}
+.content h5{
+    font-size:13px
+}
+.content p{
+    font-size: 9px;
+    margin-top: 1px;
+    font-weight: 400;
+}
+.readMore{
+    background-color:#662a91;;
+    color: var(--primary-white-color);
+    padding: 7px 20px 7px 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 13px;
 }
 @media only screen and (min-width: 700px) {
     main {
